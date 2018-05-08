@@ -11,23 +11,14 @@
         >{{ category }}</router-link></h2>
       </li>
     </ul>
-<!--     <view-cart />
-    <view-cart />
-    <view-cart />
-    <view-cart />
-    <view-cart /> -->
   </div>
 </template>
 
 <script>
 import { getCategories } from '@/data/fakeApi';
-// import ViewCart from '@/view/components/Cart/ViewCart';
 
 export default {
   name: 'HomePage',
-  // components: {
-  //   ViewCart,
-  // },
   data() {
     return {
       categories: [],
