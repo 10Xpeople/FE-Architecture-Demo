@@ -6,8 +6,11 @@
 
 ## Build Setup
 
+* You need to have node installed 
+  * https://nodejs.org/en/ 
+
 ``` bash
-# install dependencies
+# install project dependencies
 npm install
 
 # serve with hot reload at localhost:8080
@@ -25,4 +28,11 @@ npm run unit
 # run all tests
 npm test
 ```
+
+## Resources:
+* https://vuejs.org/ 
+* https://vuex.vuejs.org/en/
+* https://router.vuejs.org/en/ 
+* https://sass-lang.com/ 
+* https://webpack.js.org/ 
 
