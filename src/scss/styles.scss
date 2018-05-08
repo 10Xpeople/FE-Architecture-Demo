@@ -1,0 +1,136 @@
+// Just a few styles that use the branding color variables
+
+body {
+	background-color: $light-color;
+	color: $dark-color;
+}
+input {
+	color: $dark-color;
+}
+
+nav {
+	background-color: $dark-color;
+}
+
+a {
+	color: $primary-color;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom-color: $primary-color;
+	box-shadow: 0 1px 0 0 $primary-color;
+}
+
+input:not([type]):focus:not([readonly])+label,
+input[type=text]:not(.browser-default):focus:not([readonly])+label,
+input[type=password]:not(.browser-default):focus:not([readonly])+label,
+input[type=email]:not(.browser-default):focus:not([readonly])+label,
+input[type=url]:not(.browser-default):focus:not([readonly])+label,
+input[type=time]:not(.browser-default):focus:not([readonly])+label,
+input[type=date]:not(.browser-default):focus:not([readonly])+label,
+input[type=datetime]:not(.browser-default):focus:not([readonly])+label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label,
+input[type=tel]:not(.browser-default):focus:not([readonly])+label,
+input[type=number]:not(.browser-default):focus:not([readonly])+label,
+input[type=search]:not(.browser-default):focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label {
+	color: $primary-color;
+}
+
+[type="checkbox"]:checked+span:not(.lever):before {
+	border-right-color: $primary-color;
+	border-bottom-color: $primary-color;
+}
+
+.message.error {
+  color: $error-color;
+}
+
+.collection.with-header .collection-header,
+.collection .collection-item {
+	background-color: lighten($light-color, 15%);
+	border-color: darken($light-color, 5%);
+}
+
+.collection {
+	border-color: darken($light-color, 5%);
+}
+
+.modal,
+.modal .modal-footer {
+	background-color: lighten($light-color, 10%);
+	border-color: darken($light-color, 5%);
+}
+
+.btn,
+.btn-floating {
+	background-color: $primary-color;
+	
+	// Nested CSS is cool
+	&:hover, 
+	&:focus {
+		background-color: darken($primary-color, 15%);
+	}
+}
+
+.btn-cta {
+	background-color: $complementary-color;
+	&:hover, 
+	&:focus {
+		background-color: darken($complementary-color, 15%);
+	}
+}
+
+.chip {
+	&:focus {
+		background-color: $primary-color;
+	}
+}
+
+
+
+
+
+.product-avatar {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    background: $secondary-color;
+    color: white;
+}
+
+.product-avatar-lg {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 25px;
+    border-radius: 40px;
+    padding: 0 15px;
+}
+
+
+
+.category {
+  text-transform: capitalize;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+

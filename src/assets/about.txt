@@ -1,0 +1,7 @@
+This folder would contain static assets, such as images, that are imported into our Vue files.
+
+Importing them, rather than using the actual url in the Vue file, means we don't have to think
+about what the actual location of the file will be. If the assets location changes, these urls
+will automatically change as well.
+
+They can also be processed, but that's not unique to the files in this folder compared to the files in the static folder. Processing could include compressing images, creating multiple sizes of images for responsive design, adding cache busting hashes to the files, or more.
